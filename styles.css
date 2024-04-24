@@ -1,60 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
 
-/* body{
-    background:rgb(231, 231, 231);
-    margin: 0;
-} */
-body{
-    background-image: url(https://media.istockphoto.com/id/157109180/es/vector/vector-textura-bois-woodgrain-imitaci%C3%B3n-de-madera.jpg?s=1024x1024&w=is&k=20&c=46Q1eF3I37yzv7goRQ7uoMSvVxx3hvMjhDOprNXB1k0=);
-    background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
+.Post {
+    background-color: white;
+    width: 500px;
+    height: 780px;
+}
+.Post-img img {
 
-
-div{
-    box-sizing: border-box;
-}
-
-header{
-    font-family: "Seymour One";
-    background:rgba(230, 215, 215, 0.521) ;
-    padding: 10px;
-    border-radius: 10px;
-}
-/* header{
-    background-size: cover;
-    background-image: url(https://thumbs.dreamstime.com/z/contexto-tranquilo-bosques-del-pino-monta%C3%B1as-en-el-fondo-tonos-azul-marino-p%C3%A1jaros-de-vuelo-149822573.jpg?ct=jpeg);
-} */
-header h1{
-    margin: 0;
-}
-div.post{
-    border-radius: 10px;
-    background: white;
-    margin-top: 10px;
-}
-div.post img{
     width: 100%;
 }
-div.post .post-header div:first-child{
-    display: inline-block;
-    width: 80%;
+.Header{
+    display: flex ;
+    justify-content: space-between;
+    margin: 15px 10px 15px 15px ;
+}
+.fa-brands.fa-html5{
+    flex: 1;
+    margin-top: 17px;
+}
+.titulo{
+    flex: 1;
+    margin-left: 15px;
+}
+.fa-solid.fa-ellipsis-vertical{
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 4px;
+}
+.Post-body{
+    margin: 1%;
+}
+.iconos{
+    font-size: 30px;
+    display: flex ;
+    justify-content: space-evenly;
+    
+}
+.fa-regular.fa-bookmark{
+    text-align: end;
+    width: 70%;
+}
+.parrafos{
+    margin-left: 5px;
+    overflow-wrap: break-word;
+}
 
 
-}
-div.post .post-header div:last-child{
-    display: inline-block;
-    width: 20%;
-    padding: 10px;
-    text-align: right;
-    color: rgb(138, 137, 137);
- 
-
-}
-div.post h2, div.post p{
-    padding: 10px;
-    margin: 0;
-}
-div.container{
-    width: 600px;
-    margin: auto;
-}
